@@ -86,6 +86,11 @@ h1 {
     font-size: 20px;
 }
 
+.logonav {
+width: 30px;
+height: fit-content;
+}
+
 
 .textIndexNormal {
      padding: 20px;
