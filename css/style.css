@@ -157,6 +157,8 @@ img {
 /*footer*/
 footer {
     background-color: rgba(rgb(223, 108, 233) 0.5);
+    min-height: 100px;
+    margin-top: 40px;
 }
 
 
