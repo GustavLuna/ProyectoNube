@@ -1,9 +1,7 @@
 /*Reset*/
 /* tipos googloe 
-texto 300 400 500 600
-font-family: 'Comfortaa', cursive;
-titulo 300 400 cursiva normal
-font-family: 'Shantell Sans', cursive;
+cuerpo font-family: 'Poiret One', cursive;
+titulos font-family: 'Rampart One', cursive;
 Paleta de colores
 lila #6858a1 R:104 G:88 B 161
 violeta #45358b R:69 G:53 B:139
@@ -17,16 +15,42 @@ rosa(lila) #eaa3c8 R:234 G:163 B:200
     margin: 0;
     padding: 0;
 }
-/*-----------------header----------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Rampart+One&display=swap');
+
 .body-index {
-    background-image: url("../asset/imagenes/fondonubesrosas.png");
+    background-image: url("../asset/fondos/grillablanca.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Comfortaa', cursive;
     font-weight: 300;
-    font-size: 20px;
 }
 
+.typerP{
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+}
+
+.typerR{
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+}
+.colorVioleta{
+    color: #2f2a83;
+}
+.coloRosa{
+    color: #e491bd;
+}
+.coloRosaL{
+    color: #eaa3c8;
+}
+/*-----------------header----------------*/
+#header{
+    min-height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 ul {
     list-style: none;
     padding: 0;
@@ -38,16 +62,28 @@ ul {
 
 li {
     width: 150px;
-    /*display: inline-block; */
+    display: inline-block; 
+    padding: 0 10px;
     text-align: center;
-    float: left;
+    /*float: left;*/
 }
 
-a {
+#header li a {
     text-decoration: none;
+    font-size: 22px;
     width: 150px;
     display: block;
     color: #2f2a83;
+}
+#header .logo{
+    margin-left: 20px;
+}
+#header .turnos a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.5em 0.75em;
+    margin-right: 20px;
 }
 .header_index {
     background-color: #6958ac;
@@ -65,14 +101,14 @@ a {
 #textFormat {
     padding: 20px;
     text-align: center;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Rampart One', cursive;
     font-weight: 300;
     font-size: 20px;
 }
 
 h1 {
     color: #6958ac;
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Rampart One', cursive;
     font-weight: 400;
     font-size: 40px;
 }
@@ -81,7 +117,7 @@ h1 {
 
      padding: 20px;
     text-align: center;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Rampart One', cursive;
     font-weight: 400;
     font-size: 20px;
 }
@@ -95,8 +131,8 @@ height: fit-content;
 .textIndexNormal {
      padding: 20px;
     text-align: center;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 300;
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
     font-size: 20px;
     color: #6958ac;
     letter-spacing: 1px;
@@ -121,4 +157,18 @@ img {
 /*footer*/
 footer {
     background-color: rgba(rgb(223, 108, 233) 0.5);
+}
+
+
+/*---------------Contacto--------------*/
+.banner {
+    min-height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#content {
+    max-width: 1080px;
+    margin: auto;
+    padding-top: 60px;
 }
