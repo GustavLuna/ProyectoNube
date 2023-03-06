@@ -166,9 +166,50 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    background-image: url(../asset/imagenes/banner-tinta.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h2, .banner p{
+    color: #2f2a83;
 }
 #content {
     max-width: 1080px;
     margin: auto;
     padding-top: 60px;
 }
+.banner h3{
+    font-size: 23px;
+    margin-bottom: 0.5em;
+}
+.banner p{
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+.banner div{
+    padding: 20px;
+}
+
+
+/*---------------ilustraciones---------------*/
+
+
+
+
+
+/*--------------Tatuajes--------------*/
+
+
+
+
+
+/*--------------Sobre mi--------------*/
+
+
+
+
+
+
